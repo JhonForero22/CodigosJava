@@ -1,0 +1,5 @@
+long t0 = System.nanoTime();
+// Aqui ponga el método para buscar en la lista
+long t1 = System.nanoTime();
+// tiempo transcurrido en milisegundos:
+long tiempoBuscaLista = (t1 - t0)/1000000;
